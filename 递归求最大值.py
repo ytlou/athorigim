@@ -5,5 +5,5 @@ def max(list):
   elif len(list)==2:
     return list[0] if list[0]>list[1] else list[1]
   else:
-    return list[0] if list[0]>sub_max else sub_list
+    return list[0] if list[0]>sub_max else sub_max
     
